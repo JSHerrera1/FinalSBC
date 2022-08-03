@@ -1,0 +1,18 @@
+{% extends '_base.html' %}
+{% block body %}
+    <div class="container__content">    
+        {% for response in responses %}
+        <div class="card">
+            <a class="card__body" href="{{ response.url }}" target="_blank">
+                <p class="card__id">{{ response.id }}</p>
+                <h2 class="card__title">{{ response.label }}</h2>
+                <h3 class="card__aliases">{{ response.label }}</h3>
+                <p class="card__description">{{ response.description }}</p>
+            </a>
+        </div>
+        <a href="#" target="_blank" class="btn__primary">
+            <p>Leer Más</p>
+        </a>
+        {% endfor %}
+    </div>
+{% endblock %}

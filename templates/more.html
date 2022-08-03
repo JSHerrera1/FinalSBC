@@ -1,0 +1,17 @@
+{% extends '_base.html' %}
+{% block body %}
+    <div class="container__content">    
+        {% for response in responses %}
+        <div class="card">
+            <a class="card__body" href="{{ response.url }}" target="_blank">
+                <p class="card__id">{{ response.id }}</p>
+                <p class="card__description">{{ response.description }}</p>
+            </a>
+        </div>
+        <form class="finder" action="search.html" method="post">
+        <input class="finder__btn2" type="submit" value="Volver">
+        </form>
+        {% endfor %}
+    </div>
+    
+{% endblock %}

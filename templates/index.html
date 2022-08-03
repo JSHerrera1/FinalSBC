@@ -1,0 +1,7 @@
+{% extends '_base.html' %}
+{% block body %}
+    <form class="finder" action="search" method="post">
+        <input class="finder__input" type="text" name="term" placeholder="Buscar" autocomplete="false">
+        <input class="finder__btn" type="submit" value="Buscar">
+    </form>
+{% endblock %}

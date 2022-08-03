@@ -1,0 +1,152 @@
+{
+  "warnings": { "main": { "*": "Unrecognized parameters: meta, siprop." } },
+  "searchinfo": { "search": "UTPL" },
+  "search": [
+    {
+      "id": "Q98134403",
+      "title": "Q98134403",
+      "pageid": 96417417,
+      "display": {
+        "label": { "value": "UTP-L2", "language": "en" },
+        "description": { "value": "cell line", "language": "en" }
+      },
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q98134403",
+      "concepturi": "http://www.wikidata.org/entity/Q98134403",
+      "label": "UTP-L2",
+      "description": "cell line",
+      "match": { "type": "alias", "language": "en", "text": "UTPL2" },
+      "aliases": ["UTPL2"]
+    },
+    {
+      "id": "Q7894321",
+      "title": "Q7894321",
+      "pageid": 7831843,
+      "display": {
+        "label": {
+          "value": "Universidad Técnica Particular de Loja",
+          "language": "en"
+        },
+        "description": {
+          "value": "private university in Loja, Ecuador",
+          "language": "en"
+        }
+      },
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q7894321",
+      "concepturi": "http://www.wikidata.org/entity/Q7894321",
+      "label": "Universidad Técnica Particular de Loja",
+      "description": "private university in Loja, Ecuador",
+      "match": { "type": "alias", "language": "ca", "text": "UTPL" },
+      "aliases": ["UTPL"]
+    },
+    {
+      "id": "Q2083967",
+      "title": "Q2083967",
+      "pageid": 2010941,
+      "display": {
+        "label": { "value": "planting", "language": "en" },
+        "description": {
+          "value": "transfer of a seedling to its final location",
+          "language": "en"
+        }
+      },
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q2083967",
+      "concepturi": "http://www.wikidata.org/entity/Q2083967",
+      "label": "planting",
+      "description": "transfer of a seedling to its final location",
+      "match": { "type": "label", "language": "sv", "text": "utplantering" },
+      "aliases": ["utplantering"]
+    },
+    {
+      "id": "Q100376353",
+      "title": "Q100376353",
+      "pageid": 98027182,
+      "display": {
+        "label": { "value": "Disintegrator Chamber", "language": "en" },
+        "description": {
+          "value": "fictional technology in the 1987–1996 Teenage Mutant Ninja Turtles animated television series",
+          "language": "en"
+        }
+      },
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q100376353",
+      "concepturi": "http://www.wikidata.org/entity/Q100376353",
+      "label": "Disintegrator Chamber",
+      "description": "fictional technology in the 1987–1996 Teenage Mutant Ninja Turtles animated television series",
+      "match": { "type": "label", "language": "sv", "text": "Utplånaren" },
+      "aliases": ["Utplånaren"]
+    },
+    {
+      "id": "Q99342352",
+      "title": "Q99342352",
+      "pageid": 97304308,
+      "display": {
+        "label": {
+          "value": "Utplacering av kärnvapen på utländskt territorium",
+          "language": "sv"
+        },
+        "description": {
+          "value": "written question from Cecilia Dalman Eek to Carl Bildt",
+          "language": "en"
+        }
+      },
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q99342352",
+      "concepturi": "http://www.wikidata.org/entity/Q99342352",
+      "label": "Utplacering av kärnvapen på utländskt territorium",
+      "description": "written question from Cecilia Dalman Eek to Carl Bildt",
+      "match": {
+        "type": "label",
+        "language": "sv",
+        "text": "Utplacering av kärnvapen på utländskt territorium"
+      }
+    },
+    {
+      "id": "Q98009534",
+      "title": "Q98009534",
+      "pageid": 96298216,
+      "display": {
+        "label": {
+          "value": "Utplacering av konstskatter i Dalarna och Norrland",
+          "language": "sv"
+        },
+        "description": { "value": "motion by Karl Boo 1986", "language": "en" }
+      },
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q98009534",
+      "concepturi": "http://www.wikidata.org/entity/Q98009534",
+      "label": "Utplacering av konstskatter i Dalarna och Norrland",
+      "description": "motion by Karl Boo 1986",
+      "match": {
+        "type": "label",
+        "language": "sv",
+        "text": "Utplacering av konstskatter i Dalarna och Norrland"
+      }
+    },
+    {
+      "id": "Q106517597",
+      "title": "Q106517597",
+      "pageid": 101808626,
+      "display": {
+        "label": { "value": "Utplacering av SMR-reaktorer", "language": "sv" },
+        "description": {
+          "value": "written question from Björn Söder to Anders Ygeman",
+          "language": "en"
+        }
+      },
+      "repository": "wikidata",
+      "url": "//www.wikidata.org/wiki/Q106517597",
+      "concepturi": "http://www.wikidata.org/entity/Q106517597",
+      "label": "Utplacering av SMR-reaktorer",
+      "description": "written question from Björn Söder to Anders Ygeman",
+      "match": {
+        "type": "label",
+        "language": "sv",
+        "text": "Utplacering av SMR-reaktorer"
+      }
+    }
+  ],
+  "success": 1
+}

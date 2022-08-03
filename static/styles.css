@@ -1,0 +1,158 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #363636;
+  height: 100vh;
+}
+
+.app {
+  display: grid;
+  height: 100%;
+  width: 100%;
+
+  grid-template-areas:
+    "main"
+    "footer";
+
+  grid-template-rows: auto 8rem;
+  grid-template-columns: 1fr;
+}
+
+.container {
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.container__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container__subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #7a7a7a;
+}
+
+.finder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 4rem;
+}
+
+.finder__input {
+  width: 30rem;
+  height: 3rem;
+  border: none;
+  border-bottom: 3px solid #64b6ac;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+
+  transition: border 0.2s ease-in-out;
+}
+
+.finder__input:focus {
+  outline: none;
+  border-color: #daffef;
+}
+
+.finder__btn,
+a.btn__primary {
+  height: 3rem;
+  border: none;
+  background-color: #64b6ac;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0 1rem;
+  text-align: right;
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+.finder__btn:hover,
+a.btn__primary:hover {
+  background-color: #daffef;
+  color: #363636;
+}
+
+a.btn__primary {
+  text-decoration: none;
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 30rem;
+  height: 100%;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.card__body {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  color: #363636;
+}
+
+.card__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card__id {
+  color: #7a7a7a;
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  grid: footer;
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
